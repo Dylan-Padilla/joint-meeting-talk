@@ -1,7 +1,7 @@
 ---
 title: 'New insights into the Evolution of Foraging Behavior and the Life History'
 author: "<br>Dylan Padilla<br><img src='imgs/yale-logo.png' width=500px height=250/><br>"
-institute: "School of Life Sciences<br>Arizona State University<br>Tempe, Arizona"
+institute: "<br>Yale School of the Environment<br>Yale Institute for Biospheric Studies<br>New Haven, Connecticut"
 format: 
   revealjs:
     chalkboard: true
