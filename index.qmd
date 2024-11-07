@@ -458,6 +458,71 @@ $m=\frac{y_2-y_1}{x_2-x_1}$ <br>
 
 
 
+## [Does the foraging-mode paradigm influence the rates of speciation?]{style='font-family:Comic Sans MS,sans-serif;font-weight:normal'} {background='imgs/paper-bg.jpg'}
+
+
+::::{.colums}
+
+:::{.column width='50%'}
+
+<br><br><br>
+
+- MuSSE: Multi-state speciation and extinction
+
+
+:::
+
+:::{.column width='50%'}
+
+
+:::
+
+::::
+
+
+## [Does the foraging-mode paradigm influence the rates of speciation?]{style='font-family:Comic Sans MS,sans-serif;font-weight:normal'} {background='imgs/paper-bg.jpg'}
+
+
+::::{.colums}
+
+:::{.column width='50%'}
+
+<br><br><br>
+
+MuSSE: Multi-state speciation and extinction
+
+
+:::
+
+:::{.column width='50%'}
+
+```{r echo = FALSE, fig.aling = 'center', fig.height=7, fig.width=7}
+
+curve1 <- rnorm(100, 5, 10)
+curve2 <- rnorm(100, 55, 10)
+
+x1 <- seq(mean(curve1) - 3*sd(curve1), mean(curve1) + 3*sd(curve1), by = 0.01)
+x2 <- seq(mean(curve2) - 3*sd(curve2), mean(curve2) + 3*sd(curve2), by = 0.01)
+
+pdf.curve1 <- dnorm(x1, mean(curve1), sd(curve1))
+pdf.curve2 <- dnorm(x2, mean(curve2), sd(curve2))
+
+par(bg = 'transparent')
+plot(pdf.curve1 ~ x1, type = 'l', lwd = 2, col = 'skyblue', xlim = c(-50, 100), ylab = '', xlab = '', axes = FALSE)
+lines(pdf.curve2 ~ x2, lwd = 2, col = 'purple')
+box(lwd = 2)
+mtext(side = 1, text = expression(sigma), cex = 2, line = 1.8)
+mtext(side = 2, text = 'Probability density', line = 1.8, cex = 2)
+legend('topleft', c('Active foragers', 'Sit-and-wait \n foragers'), lwd = 2, col = c('purple', 'skyblue'), bty = 'n')
+
+
+```
+
+:::
+
+::::
+
+
 # [🪰]{.story} <br><br><br><br> [Geographic and seasonal variation of the *for* gene]{style='float:right;text-align:right;color:gold;font-family:Comic Sans MS,sans-serif;font-weight:normal;'} {background='imgs/dmel-bg.png'}
 
 
