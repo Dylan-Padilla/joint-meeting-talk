@@ -78,7 +78,7 @@ execute:
 
 - The evolution of the foraging gene across Dipterans
 
-- Does the foraging-mode paradigm influece the rates of speciation?
+- Does the foraging-mode paradigm influence the rates of speciation?
 
 - Foraging actively can be advantageous in heterogeneous environments
 
